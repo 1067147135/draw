@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T12:50:45.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="1WGI56RWstHIRLDcyL9N" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T12:57:43.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="pJPxTYTlwPyF1ifSmr_a" version="17.1.2" type="github">
   <diagram id="6vIHZCs1nerqro95mjC2" name="Page-1">
-    <mxGraphModel dx="766" dy="339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="730" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="280" y="60" width="50" height="300" as="geometry" />
         </mxCell>
         <mxCell id="J9UZKDyT0nn7O_DtQJ7F-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J9UZKDyT0nn7O_DtQJ7F-2">
-          <mxGeometry x="20" y="50" width="10" height="80" as="geometry" />
+          <mxGeometry x="20" y="50" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="J9UZKDyT0nn7O_DtQJ7F-8" value="uploadProblem(problem)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="J9UZKDyT0nn7O_DtQJ7F-7" parent="J9UZKDyT0nn7O_DtQJ7F-2">
           <mxGeometry relative="1" as="geometry">
@@ -23,43 +23,64 @@
         </mxCell>
         <mxCell id="J9UZKDyT0nn7O_DtQJ7F-9" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="J9UZKDyT0nn7O_DtQJ7F-7" parent="J9UZKDyT0nn7O_DtQJ7F-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-50" y="126" as="targetPoint" />
+            <mxPoint x="-70" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J9UZKDyT0nn7O_DtQJ7F-3" value=":ProblemAnalyzer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
-          <mxGeometry x="470" y="60" width="110" height="280" as="geometry" />
+          <mxGeometry x="440" y="60" width="110" height="280" as="geometry" />
         </mxCell>
         <mxCell id="J9UZKDyT0nn7O_DtQJ7F-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J9UZKDyT0nn7O_DtQJ7F-3">
-          <mxGeometry x="50" y="60" width="10" height="80" as="geometry" />
+          <mxGeometry x="50" y="60" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="J9UZKDyT0nn7O_DtQJ7F-11" value="understandRequest(problem)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="J9UZKDyT0nn7O_DtQJ7F-10" parent="J9UZKDyT0nn7O_DtQJ7F-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-130" y="60" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J9UZKDyT0nn7O_DtQJ7F-12" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="J9UZKDyT0nn7O_DtQJ7F-10" parent="J9UZKDyT0nn7O_DtQJ7F-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-20" y="136" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="J9UZKDyT0nn7O_DtQJ7F-4" value=":Problem-solution Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
-          <mxGeometry x="710" y="60" width="160" height="300" as="geometry" />
+          <mxGeometry x="620" y="60" width="160" height="300" as="geometry" />
         </mxCell>
         <mxCell id="J9UZKDyT0nn7O_DtQJ7F-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J9UZKDyT0nn7O_DtQJ7F-4">
-          <mxGeometry x="75" y="70" width="10" height="80" as="geometry" />
+          <mxGeometry x="75" y="70" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J9UZKDyT0nn7O_DtQJ7F-16" value="searchSimilarProblem(feature)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="J9UZKDyT0nn7O_DtQJ7F-15" parent="J9UZKDyT0nn7O_DtQJ7F-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-120" y="70" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J9UZKDyT0nn7O_DtQJ7F-17" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="J9UZKDyT0nn7O_DtQJ7F-15" parent="J9UZKDyT0nn7O_DtQJ7F-4">
+        <mxCell id="J9UZKDyT0nn7O_DtQJ7F-17" value="similarity, similar problems" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="J9UZKDyT0nn7O_DtQJ7F-15" parent="J9UZKDyT0nn7O_DtQJ7F-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="10" y="146" as="targetPoint" />
+            <mxPoint x="-120" y="99" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J9UZKDyT0nn7O_DtQJ7F-5" value=":HumanEmployee" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
-          <mxGeometry x="980" y="60" width="110" height="300" as="geometry" />
+          <mxGeometry x="827" y="60" width="110" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="J9UZKDyT0nn7O_DtQJ7F-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J9UZKDyT0nn7O_DtQJ7F-5">
+          <mxGeometry x="50" y="170" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J9UZKDyT0nn7O_DtQJ7F-21" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="J9UZKDyT0nn7O_DtQJ7F-20" parent="J9UZKDyT0nn7O_DtQJ7F-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-19" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J9UZKDyT0nn7O_DtQJ7F-22" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="J9UZKDyT0nn7O_DtQJ7F-20" parent="J9UZKDyT0nn7O_DtQJ7F-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-19" y="246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J9UZKDyT0nn7O_DtQJ7F-18" value="&lt;b&gt;[similarity &amp;gt; threshold]&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J9UZKDyT0nn7O_DtQJ7F-12" value="top 5 similar problems" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="195" as="targetPoint" />
+            <mxPoint x="489" y="195" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J9UZKDyT0nn7O_DtQJ7F-19" value="&lt;b&gt;[similarity &amp;lt; threshold]&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

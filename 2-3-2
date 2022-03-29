@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T14:51:17.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" version="17.1.2" etag="F74M2M11CN6k7xrRCbIF" type="github"><diagram id="J1_IjUrWFodpVoMt2TFZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-29T14:59:03.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="bd0iMkjNDsQc5YQvrWrf" version="17.1.2" type="github">
+  <diagram id="J1_IjUrWFodpVoMt2TFZ" name="Page-1">
+    <mxGraphModel dx="958" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nJcd-4YmFloQEse7wOqA-1" value=":Student" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
+          <mxGeometry x="10" y="80" width="60" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="nJcd-4YmFloQEse7wOqA-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="nJcd-4YmFloQEse7wOqA-1">
+          <mxGeometry x="25" y="30" width="10" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="nJcd-4YmFloQEse7wOqA-2" value=":Zoom application" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="110" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="nJcd-4YmFloQEse7wOqA-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="nJcd-4YmFloQEse7wOqA-2">
+          <mxGeometry x="50" y="40" width="10" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="nJcd-4YmFloQEse7wOqA-7" value="sign-inRequest(SSO)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="nJcd-4YmFloQEse7wOqA-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-130" y="50" as="sourcePoint" />
+            <mxPoint x="50" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJcd-4YmFloQEse7wOqA-8" value="verifyRequest(domain)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="nJcd-4YmFloQEse7wOqA-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="60" as="sourcePoint" />
+            <mxPoint x="220" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJcd-4YmFloQEse7wOqA-3" value=":Zoom server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="90" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="nJcd-4YmFloQEse7wOqA-4" value=":CUHKSZ account server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="150" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="nJcd-4YmFloQEse7wOqA-9" value="correct / incorrect" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="160" as="sourcePoint" />
+            <mxPoint x="300" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

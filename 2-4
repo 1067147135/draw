@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T04:06:52.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="sh2Ru0PWaKSGlzqt_0XO" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T06:37:36.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="j_Dbxj6s9UJ-di3wfIuF" version="17.2.4" type="github">
   <diagram id="PQG2XYOT2FfvqAaxoZIw" name="Page-1">
     <mxGraphModel dx="901" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry x="70" y="60" width="80" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xW_uuJAFBEsVUSKAwALK-1">
-          <mxGeometry x="35" y="30" width="10" height="990" as="geometry" />
+          <mxGeometry x="35" y="30" width="10" height="750" as="geometry" />
         </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-2" value=":Robot" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
           <mxGeometry x="340" y="60" width="50" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xW_uuJAFBEsVUSKAwALK-2">
-          <mxGeometry x="20" y="50" width="10" height="630" as="geometry" />
+          <mxGeometry x="20" y="50" width="10" height="560" as="geometry" />
         </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-12" value="takePicture()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="xW_uuJAFBEsVUSKAwALK-2">
           <mxGeometry relative="1" as="geometry">
@@ -47,6 +47,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="190" as="sourcePoint" />
             <mxPoint x="-170" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xW_uuJAFBEsVUSKAwALK-3">
+          <mxGeometry x="60" y="610" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-42" value="deductFeeRequest(service fee)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="xW_uuJAFBEsVUSKAwALK-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-170" y="610" as="sourcePoint" />
+            <mxPoint x="60" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-4" value=":Airline	user	identification	server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
@@ -125,7 +134,7 @@
           <mxGeometry x="120" y="450" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-28" value="&lt;b&gt;[user is valid]&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="125" y="500" width="90" height="20" as="geometry" />
+          <mxGeometry x="120" y="500" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-29" value="error message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -149,6 +158,42 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="370" y="589.41" as="sourcePoint" />
             <mxPoint x="1010" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-39" value="deliverBaggage()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="630" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="395" y="630" />
+            </Array>
+            <mxPoint x="370" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-41" value="error message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="716" as="sourcePoint" />
+            <mxPoint x="116" y="716" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-43" value="&lt;b&gt;[credit	in	 the account is enough]&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="730" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-44" value="&lt;b&gt;[credit	in	 the account is insufficient]&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-45" value="updateUserInfo()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="754" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="635" y="754" />
+            </Array>
+            <mxPoint x="610" y="774" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-46" value="successful deduction message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="790" as="sourcePoint" />
+            <mxPoint x="116" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

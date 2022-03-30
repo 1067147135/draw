@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T02:29:06.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="7khD03qnvRC7Xh5IC7na" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T03:26:34.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="uz9f3UAgo8iJBjXyAUyV" version="17.2.4" type="github">
   <diagram id="PQG2XYOT2FfvqAaxoZIw" name="Page-1">
-    <mxGraphModel dx="426" dy="188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="340" y="60" width="50" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xW_uuJAFBEsVUSKAwALK-2">
-          <mxGeometry x="20" y="50" width="10" height="410" as="geometry" />
+          <mxGeometry x="20" y="50" width="10" height="510" as="geometry" />
         </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-12" value="takePicture()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="xW_uuJAFBEsVUSKAwALK-2">
           <mxGeometry relative="1" as="geometry">
@@ -31,6 +31,12 @@
             <mxPoint x="-223" y="236" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-23" value="checkRequest(flight)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="xW_uuJAFBEsVUSKAwALK-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="30" y="360" as="sourcePoint" />
+            <mxPoint x="480" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-3" value="：User	account	server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="130" height="1060" as="geometry" />
         </mxCell>
@@ -44,7 +50,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-4" value=":Airline	user	identification	server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
-          <mxGeometry x="710" y="60" width="180" height="1060" as="geometry" />
+          <mxGeometry x="735" y="60" width="180" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="xW_uuJAFBEsVUSKAwALK-4">
+          <mxGeometry x="85" y="360" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xW_uuJAFBEsVUSKAwALK-5" value=":Airport	baggage	center" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
           <mxGeometry x="930" y="60" width="140" height="1060" as="geometry" />
@@ -83,6 +92,42 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="358" y="360" as="sourcePoint" />
             <mxPoint x="115" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-21" value="flightInfoRequest()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="359" y="384" as="sourcePoint" />
+            <mxPoint x="115" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-22" value="flight" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="116" y="409" as="sourcePoint" />
+            <mxPoint x="360" y="409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-24" value="valid / invalid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="440" as="sourcePoint" />
+            <mxPoint x="370" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-27" value="&lt;b&gt;[user is invalid]&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-28" value="&lt;b&gt;[user is valid]&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="500" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-29" value="error message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="357.9999999999998" y="486" as="sourcePoint" />
+            <mxPoint x="115" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xW_uuJAFBEsVUSKAwALK-31" value="addressRequest()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="540" as="sourcePoint" />
+            <mxPoint x="116" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
